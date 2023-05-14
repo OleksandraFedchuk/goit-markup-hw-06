@@ -597,32 +597,39 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-form {
 
 }
-.footer-form-label {
+.form-label {
 }
 
 
 
 
 .footer-btn{
-    display: block;
+    display: inline-flex;
     width: 165px;
     height: 40px;
-    font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-    background-color: var(--sixth-color);
-    color:var(--main-title-color);
-    border-radius: 4px;
-
+background-color: var(--sixth-color);
+border-radius: 4px;
+border: none;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-btn:is(:hover, :focus){
+    background-color: var(--seventh-color);
+}
 
-.plane {
-    
+.subscribe-btn{
+    color: var(--main-title-color);
+}
+
+.modal-icon {
+   fill: #f4f4fd; 
 }
 
 /* ---------------------Modal window--------- */
