@@ -628,7 +628,7 @@ color: var(--main-title-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: var(--main-title-color);
-    outline: transparent;
+    outline: none;
 }
 
 .footer-email::placeholder {
@@ -642,22 +642,22 @@ color: var(--main-title-color);
 
 
 .footer-btn{
-    display: inline-flex;
-    justify-content:space-between;
-    width: 165px;
-    height: 40px;
+display: inline-flex;
+justify-content:space-between;
+align-items: center;
+text-align: center;
+width: 165px;
+height: 40px;
 font-weight: 500;
 font-size: 16px;
 padding: 8px 24px;
 line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-flex-direction: row;
 letter-spacing: 0.04em;
 background-color: var(--sixth-color);
+color: var(--main-title-color);
 border-radius: 4px;
 border: none;
+cursor: pointer;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -665,10 +665,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: var(--seventh-color);
 }
 
-.subscribe-btn{
-    color: var(--main-title-color);
-
-}
 
 .plane {
    fill: var(--main-title-color);
@@ -700,7 +696,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     left: 50%;
     min-width: 408px;
     min-height: 576px;
-    padding-top: 48px;
+    padding-top: 72px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
@@ -758,23 +754,19 @@ transition-delay: 300ms ;
 
 }
 .modal-title {
-
+margin-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--second-title-color);
-    padding: 24px;
     
     }
 
 .modal-form {
     display: block;
-top:0;
-left:0;
-padding-bottom: 4px;
-font-weight: 400;
+margin-bottom: 4px;
 font-size: 12px;
 line-height: 1.17;
 letter-spacing: 0.04em;
