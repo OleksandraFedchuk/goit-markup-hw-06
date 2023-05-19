@@ -718,6 +718,8 @@ transition-delay: 300ms ;
 }
 
 
+
+
 .modal-btn {
     position: absolute;
     display: flex;
@@ -908,6 +910,35 @@ user-select: none;
     color: var(--sixth-color);
 }
 
+
+.description-btn-modal {
+    background-color: #4D5AE5;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    width:169px ;
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;
+    margin: 0 auto;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+
+}
+
+.description-btn-modal:is(:hover, :focus) {
+    background-color: #404BBF;
+}
 
  /* ----------------PAGE POTFOLIO --------------------  */
 
